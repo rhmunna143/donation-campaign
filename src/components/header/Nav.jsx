@@ -9,15 +9,15 @@ const Nav = () => {
             </div>
 
             <div className="nav">
-                <ul className="flex gap-8">
+                <ul className="flex gap-8 text-lg">
                     <li><NavLink to="/" className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                        isPending ? "pending" : isActive ? "text-[#FF444A] underline font-bold" : ""
                     }>Home</NavLink></li>
                     <li><NavLink to="/donation" className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                        isPending ? "pending" : isActive ? "text-[#FF444A] underline font-bold" : ""
                     }>Donation</NavLink></li>
                     <li><NavLink to="/statistics" className={({ isActive, isPending }) =>
-                        isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+                        isPending ? "pending" : isActive ? "text-[#FF444A] underline font-bold" : ""
                     }>Statistics</NavLink></li>
                     
                 </ul>
