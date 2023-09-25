@@ -3,6 +3,7 @@ import Banner from "../components/header/Banner";
 import HomeCard from "../components/HomeCard/HomeCard";
 
 
+
 const Home = () => {
     const data = useLoaderData()
 

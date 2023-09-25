@@ -7,8 +7,8 @@ const Banner = () => {
             <h2 className="text-4xl font-bold">I Grow By Helping People In Need</h2>
             <div className="form-control">
                 <div className="input-group items-center">
-                    <input type="text" placeholder="Search here…" className="input w-[250px] md:w-[280px] h-[46px] input-bordered rounded-md border-r-0" />
-                    <button className="btn bg-[#FF444A] text-white rounded-md py-0 hover:bg-black capitalize font-semibold">
+                    <input type="text" placeholder="Search here…" className="input w-[250px] md:w-[280px] h-[50px] input-bordered rounded-md border-r-0" />
+                    <button className="btn border-none bg-[#FF444A] text-white rounded-md py-0 hover:bg-black capitalize font-semibold">
                         Search
                     </button>
                 </div>

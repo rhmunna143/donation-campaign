@@ -1,0 +1,4 @@
+.donate-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.615), rgba(0, 0, 0, 0.615));
+    background-blend-mode: overlay;
+}
