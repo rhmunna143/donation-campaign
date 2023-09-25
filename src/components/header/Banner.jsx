@@ -3,7 +3,7 @@ import "./banner.css"
 const Banner = () => {
 
     return (
-        <div className="flex flex-col justify-center items-center gap-10 pt-14 banner-bg h-[70vh] p-10 md:p-0">
+        <div className="flex flex-col justify-center items-center gap-10 pt-14 banner-bg h-screen p-10 md:p-0 w-full">
             <h2 className="text-4xl font-bold">I Grow By Helping People In Need</h2>
             <div className="form-control">
                 <div className="input-group items-center">

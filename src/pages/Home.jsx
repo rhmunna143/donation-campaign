@@ -7,10 +7,12 @@ const Home = () => {
     const data = useLoaderData()
 
     return (
-        <div>
+        <div className="rounded-md">
             <Banner></Banner>
-            {data?.map(item => <HomeCard key={item.id} data={item}></HomeCard>
-            )}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto my-20 p-4 lg:p-0">
+                {data?.map(item => <HomeCard key={item.id} data={item}></HomeCard>
+                )}
+            </div>
         </div>
     );
 };

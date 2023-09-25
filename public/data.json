@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Medical Supplies for COVID-19 Relief",
+        "title": "Medical Supplies for COVID-19",
         "category": "health",
         "description": "Donate to provide essential medical supplies to healthcare workers fighting COVID-19.",
         "price": 500,
@@ -45,7 +45,7 @@
     },
     {
         "id": 5,
-        "title": "Medical Equipment for Local Hospitals",
+        "title": "Medical Equipment for Local",
         "category": "health",
         "description": "Contribute to the purchase of medical equipment for local hospitals and clinics.",
         "price": 800,
