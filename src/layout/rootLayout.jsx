@@ -4,7 +4,7 @@ import Nav from "../components/header/Nav";
 
 const RootLayout = () => {
     return (
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto p-4 lg:p-0">
             <Nav></Nav>
 
 

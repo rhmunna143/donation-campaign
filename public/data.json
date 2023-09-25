@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "title": "Medical Supplies for COVID-19 Relief",
+        "category": "health",
+        "description": "Donate to provide essential medical supplies to healthcare workers fighting COVID-19.",
+        "price": 500,
+        "card_bg_color": "#FF5733",
+        "category_bg_color": "#FF8C00",
+        "text_color": "#FFFFFF",
+        "image_link": "https://i.ibb.co/wh8Dh2L/Health-Copy-2.png"
+    },
+    {
+        "id": 2,
+        "title": "Educational Scholarships",
+        "category": "education",
+        "description": "Support underprivileged students by funding their education through scholarships.",
+        "price": 250,
+        "card_bg_color": "#33FF57",
+        "category_bg_color": "#00FF00",
+        "text_color": "#000000",
+        "image_link": "https://i.ibb.co/pXmQzTg/Education-Copy-2.png"
+    },
+    {
+        "id": 3,
+        "title": "Warm Winter Clothing Drive",
+        "category": "clothing",
+        "description": "Help provide warm clothing to those in need during the winter season.",
+        "price": 100,
+        "card_bg_color": "#3357FF",
+        "category_bg_color": "#0000FF",
+        "text_color": "#FFFFFF",
+        "image_link": "https://i.ibb.co/GnFfY6b/Clothing-Copy-2.png"
+    },
+    {
+        "id": 4,
+        "title": "Emergency Food Aid",
+        "category": "food",
+        "description": "Donate to provide food to families facing food scarcity during emergencies.",
+        "price": 75,
+        "card_bg_color": "#FF5733",
+        "category_bg_color": "#FFA07A",
+        "text_color": "#FFFFFF",
+        "image_link": "https://i.ibb.co/vH32rc3/Food-Copy-2.png"
+    },
+    {
+        "id": 5,
+        "title": "Medical Equipment for Local Hospitals",
+        "category": "health",
+        "description": "Contribute to the purchase of medical equipment for local hospitals and clinics.",
+        "price": 800,
+        "card_bg_color": "#FF5733",
+        "category_bg_color": "#FF8C00",
+        "text_color": "#FFFFFF",
+        "image_link": "https://i.ibb.co/wh8Dh2L/Health-Copy-2.png"
+    },
+    {
+        "id": 6,
+        "title": "Support STEM Education",
+        "category": "education",
+        "description": "Promote STEM education for children in underserved communities.",
+        "price": 150,
+        "card_bg_color": "#33FF57",
+        "category_bg_color": "#00FF00",
+        "text_color": "#000000",
+        "image_link": "https://i.ibb.co/pXmQzTg/Education-Copy-2.png"
+    },
+    {
+        "id": 7,
+        "title": "Blankets for the Homeless",
+        "category": "clothing",
+        "description": "Provide warm blankets to homeless individuals during the cold winter nights.",
+        "price": 50,
+        "card_bg_color": "#3357FF",
+        "category_bg_color": "#0000FF",
+        "text_color": "#FFFFFF",
+        "image_link": "https://i.ibb.co/GnFfY6b/Clothing-Copy-2.png"
+    },
+    {
+        "id": 8,
+        "title": "Food for Children in Need",
+        "category": "food",
+        "description": "Help feed hungry children by donating nutritious meals.",
+        "price": 60,
+        "card_bg_color": "#FF5733",
+        "category_bg_color": "#FFA07A",
+        "text_color": "#FFFFFF",
+        "image_link": "https://i.ibb.co/vH32rc3/Food-Copy-2.png"
+    },
+    {
+        "id": 9,
+        "title": "Maternity Care Support",
+        "category": "health",
+        "description": "Support expecting mothers in need of maternity care and supplies.",
+        "price": 350,
+        "card_bg_color": "#FF5733",
+        "category_bg_color": "#FF8C00",
+        "text_color": "#FFFFFF",
+        "image_link": "https://i.ibb.co/wh8Dh2L/Health-Copy-2.png"
+    },
+    {
+        "id": 10,
+        "title": "Library Books for Schools",
+        "category": "education",
+        "description": "Help expand school libraries with quality educational books.",
+        "price": 200,
+        "card_bg_color": "#33FF57",
+        "category_bg_color": "#00FF00",
+        "text_color": "#000000",
+        "image_link": "https://i.ibb.co/pXmQzTg/Education-Copy-2.png"
+    },
+    {
+        "id": 11,
+        "title": "Winter Clothing Drive for Kids",
+        "category": "clothing",
+        "description": "Collect winter clothing for underprivileged children to stay warm.",
+        "price": 80,
+        "card_bg_color": "#3357FF",
+        "category_bg_color": "#0000FF",
+        "text_color": "#FFFFFF",
+        "image_link": "https://i.ibb.co/GnFfY6b/Clothing-Copy-2.png"
+    },
+    {
+        "id": 12,
+        "title": "Community Food Pantry",
+        "category": "food",
+        "description": "Support a local community food pantry to alleviate hunger in your neighborhood.",
+        "price": 90,
+        "card_bg_color": "#FF5733",
+        "category_bg_color": "#FFA07A",
+        "text_color": "#FFFFFF",
+        "image_link": "https://i.ibb.co/vH32rc3/Food-Copy-2.png"
+    }
+]
