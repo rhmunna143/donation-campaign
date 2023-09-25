@@ -7,7 +7,7 @@
         "price": 500,
         "card_bg_color": "#FF5733",
         "category_bg_color": "#FF8C00",
-        "text_color": "#FFFFFF",
+        "text_color": "#33FFFC",
         "image_link": "https://i.ibb.co/wh8Dh2L/Health-Copy-2.png"
     },
     {
@@ -38,9 +38,9 @@
         "category": "food",
         "description": "Donate to provide food to families facing food scarcity during emergencies.",
         "price": 75,
-        "card_bg_color": "#FF5733",
+        "card_bg_color": "#FF9F33",
         "category_bg_color": "#FFA07A",
-        "text_color": "#FFFFFF",
+        "text_color": "#1B0A62",
         "image_link": "https://i.ibb.co/vH32rc3/Food-Copy-2.png"
     },
     {
@@ -51,7 +51,7 @@
         "price": 800,
         "card_bg_color": "#FF5733",
         "category_bg_color": "#FF8C00",
-        "text_color": "#FFFFFF",
+        "text_color": "#33FFFC",
         "image_link": "https://i.ibb.co/wh8Dh2L/Health-Copy-2.png"
     },
     {
@@ -82,9 +82,9 @@
         "category": "food",
         "description": "Help feed hungry children by donating nutritious meals.",
         "price": 60,
-        "card_bg_color": "#FF5733",
+        "card_bg_color": "#FF9F33",
         "category_bg_color": "#FFA07A",
-        "text_color": "#FFFFFF",
+        "text_color": "#1B0A62",
         "image_link": "https://i.ibb.co/vH32rc3/Food-Copy-2.png"
     },
     {
@@ -95,7 +95,7 @@
         "price": 350,
         "card_bg_color": "#FF5733",
         "category_bg_color": "#FF8C00",
-        "text_color": "#FFFFFF",
+        "text_color": "#33FFFC",
         "image_link": "https://i.ibb.co/wh8Dh2L/Health-Copy-2.png"
     },
     {
@@ -126,9 +126,9 @@
         "category": "food",
         "description": "Support a local community food pantry to alleviate hunger in your neighborhood.",
         "price": 90,
-        "card_bg_color": "#FF5733",
+        "card_bg_color": "#FF9F33",
         "category_bg_color": "#FFA07A",
-        "text_color": "#FFFFFF",
+        "text_color": "#1B0A62",
         "image_link": "https://i.ibb.co/vH32rc3/Food-Copy-2.png"
     }
 ]
