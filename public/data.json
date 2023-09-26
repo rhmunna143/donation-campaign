@@ -27,9 +27,9 @@
         "category": "clothing",
         "description": "Help provide warm clothing to those in need during the winter season.",
         "price": 100,
-        "card_bg_color": "#3357FF",
+        "card_bg_color": "#9AA5D8",
         "category_bg_color": "#0000FF",
-        "text_color": "#FFFFFF",
+        "text_color": "#1E0054",
         "image_link": "https://i.ibb.co/GnFfY6b/Clothing-Copy-2.png"
     },
     {
@@ -71,9 +71,9 @@
         "category": "clothing",
         "description": "Provide warm blankets to homeless individuals during the cold winter nights.",
         "price": 50,
-        "card_bg_color": "#3357FF",
+        "card_bg_color": "#9AA5D8",
         "category_bg_color": "#0000FF",
-        "text_color": "#FFFFFF",
+        "text_color": "#1E0054",
         "image_link": "https://i.ibb.co/GnFfY6b/Clothing-Copy-2.png"
     },
     {
@@ -115,9 +115,9 @@
         "category": "clothing",
         "description": "Collect winter clothing for underprivileged children to stay warm.",
         "price": 80,
-        "card_bg_color": "#3357FF",
+        "card_bg_color": "#9AA5D8",
         "category_bg_color": "#0000FF",
-        "text_color": "#FFFFFF",
+        "text_color": "#1E0054",
         "image_link": "https://i.ibb.co/GnFfY6b/Clothing-Copy-2.png"
     },
     {

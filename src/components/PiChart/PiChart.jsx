@@ -1,46 +1,50 @@
+import Chart from "react-google-charts";
 
-import { Pie, PieChart, Cell, Label, LabelList } from "recharts";
+export function App() {
+    const primaryDonated = JSON.parse(localStorage.getItem("donated")) || [];
 
-const PaiChart = ({ maxLength, length }) => {
-    // Calculate the percentage of length and maxLength with one decimal place
-    const lengthPercentage = ((length / maxLength) * 100).toFixed(1);
-    const maxLengthPercentage = (100 - lengthPercentage).toFixed(1);
+    const maxLength = 12;
+    const length = primaryDonated?.length;
+
+    // Percentage calculation
+    const lengthPercentage = ((length / maxLength) * 100);
+    const maxLengthPercentage = (((maxLength - length) / maxLength) * 100);
 
     // Data for the Pie Chart
     const data = [
-        { name: "Length", value: parseFloat(lengthPercentage) },
-        { name: "MaxLength", value: parseFloat(maxLengthPercentage) },
+        ["Donation", "Donation number"],
+        ["Your Donation", lengthPercentage],
+        ["Total Donation", maxLengthPercentage],
     ];
 
-    // Define custom colors for the Pie segments
-    const colors = ["#0088FE", "#FF8042"];
+    const options = {
+        // title: "Donation Statistics",
+        legend: "none"
+    };
 
     return (
         <div>
-            <PieChart width={750} height={300}>
-                <Pie
-                    data={data}
-                    dataKey="value"
-                    cx={150}
-                    cy={150}
-                    outerRadius={100}
-                    fill="#8884d8"
-                    labelLine={false} // Disable the label line connecting to the center
-                >
-                    {data.map((entry, index) => (
-                        <Cell key={`cell-${index}`} fill={colors[index]} />
-                    ))}
-                    <LabelList
-                        data={data}
-                        position="inside"
-                        content={({ value, name }) => `${name}: ${value.toFixed(1)}%`}
-                        fill="#FFFFFF"
-                        fontSize={16}
-                    />
-                </Pie>
-            </PieChart>
+            <Chart
+                chartType="PieChart"
+                data={data}
+                options={options}
+                width={"100%"}
+                height={"400px"}
+            />
+
+            <div className="flex gap-5 w-fit mx-auto">
+                <div className="flex items-center gap-2">
+                    <div>Your Donation</div>
+                    <div className="w-12 h-2 rounded-sm bg-[#3366cc]">
+                    </div>
+                </div>
+
+                <div className="flex items-center gap-2">
+                    <div>Total Donation</div>
+                    <div className="w-12 h-2 rounded-sm bg-[#dc3912]">
+                    </div>
+                </div>
+            </div>
         </div>
     );
-};
-
-export default PaiChart;
+}
