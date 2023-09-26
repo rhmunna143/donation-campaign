@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Pie, PieChart, Cell, Label, LabelList } from "recharts";
 
 const PaiChart = ({ maxLength, length }) => {

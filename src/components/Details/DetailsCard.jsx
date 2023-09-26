@@ -1,3 +1,4 @@
+import swal from "sweetalert";
 import "./details.css"
 
 const DetailsCard = ({ detailsCard }) => {
@@ -9,12 +10,13 @@ const DetailsCard = ({ detailsCard }) => {
         const isExist = storedCard.find(card => id == card.id);
 
         if (isExist) {
-            alert("Already exists");
+            swal("Try Another.", "You have already donated in this campaign.", "error");
             return;
         }
 
         storedCard.push(detailsCard);
         localStorage.setItem("donated", JSON.stringify(storedCard));
+        swal("Thank You.", "You have donated Successfully.", "success");
     }  
 
 
