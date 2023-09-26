@@ -1,9 +1,7 @@
-import { useState } from "react";
 import "./details.css"
 
 const DetailsCard = ({ detailsCard }) => {
     const { title, text_color, image_link, id, description, price, card_bg_color } = detailsCard;
-
 
     const handleDonate = () => {
         const storedCard = JSON.parse(localStorage.getItem("donated")) || [];
@@ -17,8 +15,6 @@ const DetailsCard = ({ detailsCard }) => {
 
         storedCard.push(detailsCard);
         localStorage.setItem("donated", JSON.stringify(storedCard));
-
-        console.log(storedCard);
     }  
 
 
