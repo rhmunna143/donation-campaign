@@ -5,9 +5,9 @@ const HomeCard = ({ data }) => {
 
     return (
         <Link to={`/details/${id}`}>
-            <div className="rounded-md max-w-fit mx-auto" style={{ backgroundColor: card_bg_color }}>
-                <div className="img">
-                    <img src={image_link} alt="" />
+            <div className="rounded-md max-w-fit  mx-auto flex flex-col justify-center" style={{ backgroundColor: card_bg_color }}>
+                <div className="img rounded-t-md">
+                    <img className="rounded-t-md h-48" src={image_link} alt="" />
                 </div>
 
                 <div className="p-4">
