@@ -28,7 +28,7 @@ const DetailsCard = ({ detailsCard }) => {
                     <img className="w-full" src={image_link} alt="" />
 
                     <div className="donate-bg w-full p-5 absolute bottom-[1px]">
-                        <button onClick={handleDonate} style={{ backgroundColor: text_color, color: card_bg_color }} className="btn border-none capitalize hover:bg-sky-700 hover:text-black">Donate ${price}</button>
+                        <button onClick={handleDonate} style={{ backgroundColor: text_color, color: "white" }} className="hover:bg-black btn border-none capitalize">Donate ${price}</button>
                     </div>
                 </div>
 
