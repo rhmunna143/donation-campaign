@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
 
@@ -20,7 +21,7 @@ const DonateCard = ({ donated }) => {
                 <p className="font-semibold" style={{ color: text_color }}>${fixedPrice}</p>
 
                 <Link to={`/details/${id}`}>
-                    <button className="mt-1 py-1 px-4 font-semibold rounded-md" style={{backgroundColor: text_color, color: "#FFFF"}}>View Deteils</button>
+                    <button className="mt-1 py-1 px-4 font-semibold rounded-md" style={{backgroundColor: text_color, color: "#FFFF"}}>View Details</button>
                 </Link>
             </div>
         </div>

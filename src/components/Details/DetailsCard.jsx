@@ -1,8 +1,9 @@
+/* eslint-disable react/prop-types */
 import swal from "sweetalert";
 import "./details.css"
 
 const DetailsCard = ({ detailsCard }) => {
-    const { title, text_color, image_link, id, description, price, card_bg_color } = detailsCard;
+    const { title, text_color, image_link, id, description, price } = detailsCard;
 
     const handleDonate = () => {
         const storedCard = JSON.parse(localStorage.getItem("donated")) || [];

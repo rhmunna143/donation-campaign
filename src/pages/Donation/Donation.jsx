@@ -13,6 +13,7 @@ const Donation = () => {
         if (primaryDonated?.length > 4) {
             setIsShowAll(true)
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleShowAll = () => {

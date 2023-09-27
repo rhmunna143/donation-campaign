@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
 const HomeCard = ({ data }) => {
@@ -7,7 +8,7 @@ const HomeCard = ({ data }) => {
         <Link to={`/details/${id}`}>
             <div className="rounded-md max-w-fit  mx-auto flex flex-col justify-center" style={{ backgroundColor: card_bg_color }}>
                 <div className="img rounded-t-md">
-                    <img className="rounded-t-md h-48" src={image_link} alt="" />
+                    <img className="rounded-t-md h-48 w-80" src={image_link} alt="" />
                 </div>
 
                 <div className="p-4">
